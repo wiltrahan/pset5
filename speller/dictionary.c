@@ -7,9 +7,12 @@
 typedef struct node
 {
     char word[LENGTH + 1];
-    struct node* next;
+    struct node *next;
 }
 node;
+
+// node *node1 = malloc(sizeof(node));
+// node *node2 = malloc(sizeof(node));
 
 // Returns true if word is in dictionary else false
 bool check(const char *word)
